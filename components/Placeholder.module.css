@@ -1,0 +1,18 @@
+.ph {
+  display: inline-block;
+  position: relative;
+  background: var(--ph);
+  overflow: hidden;
+  vertical-align: baseline;
+}
+
+.label {
+  position: absolute;
+  left: 6px;
+  bottom: 4px;
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  line-height: 1.2;
+  color: var(--ph-text);
+  text-transform: lowercase;
+}

@@ -1,0 +1,31 @@
+.section {
+  position: relative;
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 88px var(--gutter);
+}
+
+.tag {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 28px;
+}
+
+.text {
+  font-size: clamp(32px, 5.2vw, 84px);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  max-width: 1300px;
+}
+
+@media (max-width: 768px) {
+  .inner {
+    padding: 56px var(--gutter);
+  }
+}

@@ -1,0 +1,86 @@
+.section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 64px var(--gutter);
+  border-top: var(--line);
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: clamp(44px, 7vw, 112px);
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+}
+
+.hint {
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 300px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+}
+
+.date {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  font-size: 11px;
+  color: var(--ph-text);
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.no {
+  font-size: 12px;
+}
+
+.cardTitle {
+  font-size: 22px;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.line {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 48px var(--gutter);
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
+    gap: 32px 16px;
+  }
+}

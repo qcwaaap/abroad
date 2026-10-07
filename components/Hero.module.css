@@ -1,0 +1,92 @@
+.hero {
+  position: relative;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 40px var(--gutter) 72px;
+}
+
+.crop {
+  position: absolute;
+  top: 14px;
+  width: 22px;
+  height: 22px;
+  border: 0 solid var(--ink);
+}
+
+.cropTl {
+  left: 14px;
+  border-left-width: 1.5px;
+  border-top-width: 1.5px;
+}
+
+.cropTr {
+  right: 14px;
+  border-right-width: 1.5px;
+  border-top-width: 1.5px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: clamp(60px, 12.5vw, 200px);
+  line-height: 0.9;
+  letter-spacing: -0.055em;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.lead {
+  max-width: 520px;
+  font-size: clamp(18px, 1.6vw, 22px);
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 0 26px;
+  background: var(--ink);
+  color: var(--bg);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 999px;
+}
+
+.cta:hover {
+  color: var(--bg);
+  background: var(--accent);
+}
+
+.scribble {
+  font-family: var(--font-hand), cursive;
+  font-size: 34px;
+  transform: rotate(-6deg);
+  display: inline-block;
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 28px var(--gutter) 48px;
+  }
+
+  .bottom {
+    margin-top: 28px;
+  }
+}

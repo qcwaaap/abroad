@@ -1,0 +1,25 @@
+.footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 24px var(--gutter) 40px;
+  border-top: var(--line);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px 40px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.copy {
+  margin-top: 24px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-bottom: 32px;
+  }
+}
