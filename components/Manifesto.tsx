@@ -16,7 +16,7 @@ export default function Manifesto() {
           ). Learn one ({' '}
           <Placeholder label="word" width="1em" height="0.7em" background="var(--accent)" labelColor="#FFFFFF" />{' '}
           ). Cook for ({' '}
-          <Placeholder label="friends" width="1.1em" height="0.7em" background="#8A6F5C" labelColor="#F4F3EE" />{' '}
+          <Placeholder label="friend" width="1.1em" height="0.7em" background="#8A6F5C" labelColor="#F4F3EE" />{' '}
           ). The future is built out of ordinary Tuesdays.
         </p>
       </div>

@@ -28,7 +28,7 @@ export const notes: Note[] = raw.map(([title, line, photo, date], i) => ({
   no: String(i + 1).padStart(2, '0'),
   title,
   line,
-  photo: `photo — ${photo}`,
+  photo: {photo},
   date,
   tone: tones[i % tones.length],
 }));

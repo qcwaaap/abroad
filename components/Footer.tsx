@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`${styles.grid} mono`}>
         <div>elsewhere/now<br />Vol. 01, 2026</div>
-        <div>Words &amp; photos<br />[AUTHOR NAME]</div>
+        <div>Words &amp; photos<br />[maria]</div>
         <div>Set in Hanken Grotesk<br />&amp; IBM Plex Mono</div>
         <div>[YOUR DOMAIN]<br />[INSTAGRAM HANDLE]</div>
       </div>
