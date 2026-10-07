@@ -8,12 +8,12 @@ export default function Hero() {
       <span className={`${styles.crop} ${styles.cropTr}`} />
       <h1 className={styles.title}>
         Life{' '}
-        <Placeholder label=" — packed suitcase, flash" width="1.55em" height="0.72em" background="#B9B3A6" />
+        <Placeholder label="packed suitcase, flash" width="1.55em" height="0.72em" background="#B9B3A6" />
         <br />
         is not a{' '}
-        <Placeholder label=" — empty chair" width="0.9em" height="0.72em" background="var(--accent)" labelColor="#FFFFFF" />
+        <Placeholder label="empty chair" width="0.9em" height="0.72em" background="var(--accent)" labelColor="#FFFFFF" />
         <br />
-        <Placeholder label=" — station clock" width="1.2em" height="0.72em" /> waiting
+        <Placeholder label="station clock" width="1.2em" height="0.72em" /> waiting
         <br />
         room.
       </h1>
